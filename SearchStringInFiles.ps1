@@ -1,0 +1,1 @@
+﻿(Select-String -Path "*.txt" -Pattern 'dummy').Line | Set-Content c:\Temp\Output.txt
